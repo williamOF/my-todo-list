@@ -15,11 +15,6 @@
         "feita": false
     },
     {
-        "id": 5,
-        "texto": "Essa é a tarefa 5",
-        "feita": false
-    },
-    {
         "id": 6,
         "texto": "tarefa alterada",
         "feita": false

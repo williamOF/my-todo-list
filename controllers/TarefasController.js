@@ -28,10 +28,18 @@ const TarefasController = {
         return res.status(200).json({msg:'ok'});
     },
     updateFeita: (req, res) => {
-        res.send('atualizar tarefa - feita')
+        let id = req.params.id
+        let tarefa = tarefas.find(t => t.id == id);
+        tarefa.feita = true;
+        save();
+        return res.status(200).json({msg:'feita'});
     },
     updateDesfeita: (req, res) => {
-        res.send('atualizar tarefa - desfeita')
+        let id = req.params.id
+        let tarefa = tarefas.find(t => t.id == id);
+        tarefa.feita = false;
+        save();
+        return res.status(200).json({msg:'desfeita'});
     },
     delete: (req, res) => {
         let id = req.params.id;
