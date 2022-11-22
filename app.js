@@ -18,6 +18,7 @@ app.listen(process.env.PORT, ()=>{console.log(`Servidor rodando na porta ${proce
 
 io.on('connection', (socket) => {
     console.log('a user connected');
+    socket.emit("conectou","123456");
 });
   
 io.listen(3030,() => {
