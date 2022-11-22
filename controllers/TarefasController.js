@@ -12,7 +12,10 @@ const TarefasController = {
         return res.send(tarefas);
     },
     store: (req, res) => {
-        let novoId = tarefas[tarefas.length - 1].id + 1;
+        let novoId = 1;
+        if(tarefas.length > 0){
+            novoId = tarefas[tarefas.length - 1].id + 1;
+        }        
         let {texto} = req.body;
         let tarefa = {id: novoId, texto, feita: false};
         tarefas.push(tarefa);
