@@ -21,11 +21,16 @@
     },
     {
         "id": 6,
-        "texto": "Essa é a tarefa 6",
+        "texto": "tarefa alterada",
         "feita": false
     },
     {
         "id": 7,
+        "texto": "Nova tarefa...",
+        "feita": false
+    },
+    {
+        "id": 8,
         "texto": "Nova tarefa...",
         "feita": false
     }

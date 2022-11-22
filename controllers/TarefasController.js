@@ -9,8 +9,7 @@ function save(){
 
 const TarefasController = {
     index: (req, res) => {
-        res.send(tarefas);
-        save();
+        return res.send(tarefas);
     },
     store: (req, res) => {
         let novoId = tarefas[tarefas.length - 1].id + 1;
@@ -18,10 +17,15 @@ const TarefasController = {
         let tarefa = {id: novoId, texto, feita: false};
         tarefas.push(tarefa);
         save();
-        res.status(201).json(tarefa);
+        return res.status(201).json(tarefa);
     },
     update: (req, res) => {
-        res.send('atualizar tarefa')
+        let texto = req.body.texto;
+        let id = req.params.id
+        let tarefa = tarefas.find(t => t.id == id);
+        tarefa.texto = texto;
+        save();
+        return res.status(200).json({msg:'ok'});
     },
     updateFeita: (req, res) => {
         res.send('atualizar tarefa - feita')
