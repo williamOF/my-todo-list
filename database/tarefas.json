@@ -17,7 +17,7 @@
     {
         "id": 6,
         "texto": "tarefa alterada",
-        "feita": false
+        "feita": true
     },
     {
         "id": 7,
