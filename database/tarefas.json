@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "texto": "Essa é a tarefa 1",
+        "feita": false
+    },
+    {
+        "id": 2,
+        "texto": "Essa é a tarefa 2",
+        "feita": false
+    },
+    {
+        "id": 4,
+        "texto": "Essa é a tarefa 4",
+        "feita": false
+    },
+    {
+        "id": 5,
+        "texto": "Essa é a tarefa 5",
+        "feita": false
+    },
+    {
+        "id": 6,
+        "texto": "Essa é a tarefa 6",
+        "feita": false
+    },
+    {
+        "id": 7,
+        "texto": "Nova tarefa...",
+        "feita": false
+    }
+]
