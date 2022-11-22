@@ -34,7 +34,11 @@ const TarefasController = {
         res.send('atualizar tarefa - desfeita')
     },
     delete: (req, res) => {
-        res.send('delete tarefa')
+        let id = req.params.id;
+        let pos = tarefas.findIndex(t => t.id == id);
+        tarefas.splice(pos, 1);
+        save();
+        return res.status(200).json({msg:'deleted'});
     }
 }
 
