@@ -1,0 +1,44 @@
+[
+    {
+        "id": 3,
+        "nome": "Goleador da Suíça",
+        "email": "goleador@suica.com",
+        "senha": "$2b$10$8/S4wcUthYaJskKHkNPjz.LWE24/LaU/RTK.pzLYAVAQzZzGxBYKu"
+    },
+    {
+        "id": 4,
+        "nome": "Goleador da Suíça",
+        "email": "goleador@suica.com",
+        "senha": "$2b$10$YMIzQCmY420qMbZHp9O3FufWbx4tp6VHxVWSqy4xwO2NlBQQLXAMy"
+    },
+    {
+        "id": 5,
+        "nome": "Goleador da Suíça",
+        "email": "goleador2@suica.com",
+        "senha": "$2b$10$OY228jYshljv4gwNVY.CluoPfWfbG/4D25e03Ug7RIZ2x05z9xthC"
+    },
+    {
+        "id": 6,
+        "nome": "Goleador da Suíça",
+        "email": "goleador3@suica.com",
+        "senha": "$2b$10$LgGzEauJlTol3lJr9AX0vOs9KKKujlQ3rVfb8Jl7RhxH15kIGeV.q"
+    },
+    {
+        "id": 7,
+        "nome": "Goleador da Suíça",
+        "email": "goleador4@suica.com",
+        "senha": "$2b$10$Uh0bZ3r91eyzXkRK0hDsXe/4nJce8o23ocC9y/jHSngjdLWOc4mma"
+    },
+    {
+        "id": 8,
+        "nome": "Goleador da Suíça",
+        "email": "goleador6@suica.com",
+        "senha": "$2b$10$ByMBxzV6l8NdHzEqukwwO.jvR3n8AsubqBcY3u9KsXrtXveEtCxeC"
+    },
+    {
+        "id": 9,
+        "nome": "Goleador da Suíça",
+        "email": "goleador7@suica.com",
+        "senha": "$2b$10$I0x18K59hKvOUR3jFbBaX./CQ.RIwnm4xsYCcSUbEGtIC8BUG6xZW"
+    }
+]
